@@ -1,0 +1,25 @@
+doctype html
+html
+	head
+		title= "【扒】" + host
+		link(rel='stylesheet', href='css/main.css')
+	body
+		section
+			form(action="/output")
+				h2: a(href="/") 扒拉扒拉
+				p: label(for="input") 请输入你要扒正文的网址：
+				input#input(name="url" value=url)
+				button 提交
+				ol
+					li 扒拉扒拉不会额外输出空行，人工修改时不应留有多余空行
+					li 您正在查看
+						b 正文抓取结果
+						| 。如果有正文段落被吞，
+						a#btn_seeall(href="javascript:void(0);") 点此查看全部抓取结果
+		.special 复制<br>源码
+			.cont#copy_container
+		.special.special-alt#special-alt 复制<br>成功
+		iframe#iframe(src="/digest?url="+encodeURIComponent(url))
+		script(src="js/jQuery.js")
+		script(src="js/zc-modify.js")
+		script(src="js/script.js")

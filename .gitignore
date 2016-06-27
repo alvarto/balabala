@@ -1,6 +1,7 @@
 # IDE Related #
 ######################
 *.sublime-workspace
+.vscode
 
 # System/Env Related #
 ######################
@@ -16,6 +17,7 @@ node_modules
 destination
 document
 npm-debug.log
+data
 
 # OS generated files #
 ######################

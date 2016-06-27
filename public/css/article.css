@@ -1,0 +1,152 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,figure,fieldset,legend,input,textarea,select,optgroup,option,p,blockquote,th,td {
+	margin:0;
+	padding:0
+}
+body {
+	font-size:13px;
+	background:#F9F8FB;
+	font-family:Avenir,Helvetica,'Helvetica Neue',Arial,sans-serif;
+	margin:0 auto;
+	max-width:640px;
+	padding:24px 15px 18%
+}
+a {
+	text-decoration:none
+}
+li {
+	display:block
+}
+em,i {
+	font-style:normal
+}
+em,h1,h2,h3,h4,h5,h6 {
+	font-weight:700
+}
+h1,h2,h3,h4,h5,h6 {
+	line-height:normal;
+	margin:0
+}
+header {
+	margin:0 0 20px
+}
+article {
+	-webkit-hyphens:auto;
+	-moz-hyphens:auto;
+	-ms-hyphens:auto;
+	hyphens:auto;
+	margin:0;
+	padding:0;
+	text-align:justify;
+	text-autospace:ideograph-alpha;
+	text-justify:inter-ideograph;
+	-ms-text-justify:inter-ideograph
+}
+p {
+	color:#323336;
+	font-size:17px;
+	line-height:25px;
+	margin:0 0 24px
+}
+nav,time {
+	display:block;
+	font-size:12px;
+	margin:20px 0
+}
+nav,nav a,time {
+	color:#9C9C9C
+}
+h1 {
+	font-size:24px;
+	line-height:30px;
+	margin:0 0 24px
+}
+h1,h2 {
+	color:#2d2e33
+}
+h2 {
+	font-size:20px;
+	margin:24px 0
+}
+h3 {
+	font-size:18px
+}
+h3,h4,h5,h6 {
+	color:#2d2e33;
+	margin:0 0 20px
+}
+i {
+	color:#CECECE;
+	font-style:normal;
+	font-size:12px
+}
+table {
+	background:#FFF;
+	border-collapse:collapse;
+	border-spacing:0;
+	line-height:2.8em;
+	margin:0 0 24px;
+	text-align:center;
+	width:100%
+}
+td,th {
+	border:1px solid #efefef
+}
+th {
+	color:#999;
+	font-size:18px;
+	font-weight:400
+}
+td {
+	color:#444
+}
+ol,ul {
+	font-size:17px;
+	padding-left:2em
+}
+article img {
+	height:auto !important;
+	margin:20px auto;
+	width:100%!important
+}
+ol li {
+	display:list-item;
+	margin-bottom:24px
+}
+ol p {
+	margin-bottom:0
+}
+.dn {
+	display:none
+}
+.db {
+	display:block
+}
+.ell {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+.ilblk {
+	display:inline-block
+}
+.tl {
+	text-align:left
+}
+.tc {
+	text-align:center
+}
+.tr {
+	text-align:right
+}
+.clearfix:after {
+	clear:both;
+	content:"\0020";
+	display:block;
+	height:0
+}

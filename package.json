@@ -1,0 +1,23 @@
+{
+	"name": "balabala",
+	"version": "0.2.0",
+	"author": "Humphry <humphry.huang9@gmail.com>",
+	"private": true,
+	"dependencies": {
+		"koa": "^1.2.0",
+		"koa-static": "^2.0.0",
+		"koa-router": "^5.4.0",
+		"koa-body": "^1.4.0",
+		"koa-jade": "=2.1.0",
+		"lodash": "=4.6.1",
+		"htmlparser": "^1.7.7",
+		"iconv-lite": "^0.4.13",
+		"cheerio": "^0.20.0",
+		"dateformat": "^1.0.12",
+		"node-read": "^0.1.7",
+		"moment": "^2.13.0"
+	},
+	"scripts": {
+		"start": "node app.js 2>>data/error.log | tee -a data/access.log"
+	}
+}
